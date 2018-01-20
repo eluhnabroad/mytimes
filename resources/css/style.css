@@ -1,1 +1,66 @@
 /* STYLESHEET FOR MyTimes/index */
+
+body {}
+
+a {
+  color: black;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  margin: auto 10px;
+}
+
+header {
+  border-bottom: 2px solid black;
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+  font-family: Verdana;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+li {
+  display: inline-block;
+  margin: auto 5px;
+}
+
+nav {}
+
+ul {
+  list-style: none;
+  margin: auto 5px;
+}
+
+
+.column.left {
+  border: 5px solid black;
+  display: flex;
+  width: 630px;
+}
+
+.column.middle {
+  border: 5px solid black;
+  display: flex;
+  width: 300px;
+}
+
+.column.right {
+  border: 5px solid black;
+  display: flex;
+  width: 240px;
+}
+
+#container {
+  display: flex;
+}
+
+#logo {
+  color: MediumAquamarine;
+  display: flex;
+    align-items: center;
+}
