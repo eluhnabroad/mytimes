@@ -36,27 +36,34 @@ ul {
   margin: auto 5px;
 }
 
+.box {
+  border: 1px solid black;
+}
+
+.column {
+  border: 2px solid black;
+  display: flex;
+    flex-direction: column;
+  margin: 10px;
+}
 
 .column.left {
-  border: 5px solid black;
-  display: flex;
   width: 630px;
 }
 
 .column.middle {
-  border: 5px solid black;
-  display: flex;
   width: 300px;
 }
 
 .column.right {
-  border: 5px solid black;
-  display: flex;
   width: 240px;
 }
 
-#container {
+.container {
+  border: 5px solid black;
   display: flex;
+    justify-content: center;
+  margin: 10px;
 }
 
 #logo {
