@@ -49,7 +49,10 @@ ul {
 }
 
 .box {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .caption {
@@ -60,21 +63,24 @@ ul {
 }
 
 .column {
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   display: flex;
     flex-direction: column;
-  margin: 10px;
+  margin: 20px;
 }
 
 .column.left {
+  display: flex;
   width: 630px;
 }
 
 .column.middle {
+  display: flex;
   width: 300px;
 }
 
 .column.right {
+  display: flex;
   width: 240px;
 }
 
@@ -90,24 +96,54 @@ ul {
   font-size: 17px;
 }
 
+.contb {
+  display: flex;
+    align-content: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+  /*width: 300px;*/
+}
+
+#b1 {
+  display: flex;
+    flex-direction: column;
+  width: 300px;
+}
+
+#b2 {
+  display: flex;
+    flex-direction: column;
+  width: 300px;
+}
+
 #l1 {
   background-image: url("../img-story-main.png");
   display: flex;
+  font-size: 40px;
+  height: 300px;
+}
+
+#l3 {
+  width: 300px;
 }
 
 #l4 {
   background-image: url("../img-story-2.png");
   display: flex;
+  height: 300px;
+  width: 300px;
 }
 
 #l6 {
   background-image: url("../img-story-3.png");
   display: flex;
+  height: 300px;
 }
 
 #m2 {
   background-image: url("../img-story-1.png");
   display: flex;
+  height: 300px;
 }
 
 #logo {
