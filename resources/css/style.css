@@ -8,6 +8,17 @@ a {
   color: black;
 }
 
+footer {
+  background-color: MediumAquaMarine;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  font-family: Verdana;
+  font-size: 12px;
+  width: 100%;
+  height: 250px;
+}
+
 h1 {
   display: inline-block;
   font-size: 14px;
@@ -48,6 +59,22 @@ ul {
   margin: auto 5px;
 }
 
+.bite {
+  background-color: WhiteSmoke;
+  border-bottom: 1px solid black;
+  color: DimGray;
+  font-family: Verdana;
+  font-size: 12px;
+  margin: 0px;
+  padding: 10px;
+}
+
+.bitetitle {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
 .box {
   /*border: 1px solid black;*/
   display: flex;
@@ -81,6 +108,7 @@ ul {
 
 .column.right {
   display: flex;
+    flex-direction: column;
   width: 240px;
 }
 
@@ -140,14 +168,29 @@ ul {
   height: 300px;
 }
 
+#logo {
+  color: MediumAquamarine;
+  display: flex;
+    align-items: center;
+}
+
 #m2 {
   background-image: url("../img-story-1.png");
   display: flex;
   height: 300px;
 }
 
-#logo {
-  color: MediumAquamarine;
+#r2 {
   display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#title {
+  border-right: 2px solid white;
+  color: white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  padding-right: 20px;
 }
